@@ -1,0 +1,16 @@
+.cart{
+    width: 200px;
+    height: 300px; 
+    margin: 5px;
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    background-color: crimson;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cartImg{
+    width: 100%;
+}

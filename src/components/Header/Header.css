@@ -1,0 +1,11 @@
+
+.flex-Header{
+    display: flex;
+}
+
+.header{
+    width: 92%;
+    margin: 0 auto;
+    background-color: lightpink;
+    justify-content: space-between;
+}
