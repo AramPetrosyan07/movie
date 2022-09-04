@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import CartList from "../../components/CartList/CartList";
+import Table from "../../components/Table";
 import "./Home.css";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
     <div className="home">
       Home
       <br />
+      <Table />
       <br />
       <br />
       <CartList movies={movies} />
