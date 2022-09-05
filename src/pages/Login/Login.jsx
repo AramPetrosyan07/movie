@@ -32,7 +32,7 @@ const Login = () => {
       if (log === " " || pass === "") {
       } else {
         if (us.login === log && us.pass === pass) {
-          signin(data, () => navigate(fromPage, { replace: true }));
+          signin(us, () => navigate(fromPage, { replace: true }));
           return (bool = true);
         } else {
           bool = false;

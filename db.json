@@ -1,20 +1,22 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Джейсон",
-      "surname": "Стэйтем",
-      "login": "jeyson",
-      "pass": "jeyson123",
-      "favoriteMovie": []
-    },
-    {
       "id": 2,
       "name": "Анджелина",
       "surname": "Джоли",
       "login": "anjo",
       "pass": "anjo5000",
       "favoriteMovie": []
+    },
+    {
+      "id": "1662365070599",
+      "name": "r",
+      "surname": "r",
+      "login": "r",
+      "pass": "r",
+      "favoriteMovie": [
+        
+      ]
     }
   ],
   "movies": [

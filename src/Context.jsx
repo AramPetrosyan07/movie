@@ -6,6 +6,7 @@ const Context = (props) => {
   const [detailData, setDetailData] = useState({});
   //stex grma en useri anun@ vorov login enq exel
   const [user, setUser] = useState(null);
+  const [favoriteList, setFavoriteList] = useState([]);
 
   const signin = (newUser, cb) => {
     setUser(newUser);
@@ -18,10 +19,18 @@ const Context = (props) => {
     cb();
   };
 
-  const registration = () => {};
-
   return (
-    <Prov.Provider value={{ detailData, setDetailData, user, signin, signout }}>
+    <Prov.Provider
+      value={{
+        detailData,
+        setDetailData,
+        user,
+        signin,
+        signout,
+        favoriteList,
+        setFavoriteList,
+      }}
+    >
       {props.children}
     </Prov.Provider>
   );

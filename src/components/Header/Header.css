@@ -9,3 +9,45 @@
     background-color: lightpink;
     justify-content: space-between;
 }
+.togleDiv{
+    position: relative;
+}
+
+.fa-user{
+    font-size: 45px;
+}
+
+.popUp{
+    width: 600px;
+    height: 500px;
+    background-color: red;
+
+    position: absolute;
+    left: -570px;
+}
+
+.close{
+    display: none;
+}
+
+.favList{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(134, 255, 123);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.mov{
+    width: 100px;
+    height: 150px; 
+    margin: 5px;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    background-color: crimson;
+    background-size: cover;
+    background-position: center center;
+}
