@@ -2,33 +2,21 @@ import "./Login.css";
 import { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import { Prov } from "../../Context";
-import axios from "axios";
 
 const Login = () => {
-  const { signin } = useContext(Prov);
+  const { signin, usersData } = useContext(Prov);
   const navigate = useNavigate();
   const location = useLocation();
 
   const [log, setLog] = useState("");
   const [pass, setPass] = useState("");
 
-  const [data, setData] = useState({});
-
-  useEffect(() => {
-    loadUsers();
-  }, []);
-
-  const loadUsers = async () => {
-    const result = await axios.get("http://localhost:3000/users");
-    setData(result.data);
-  };
-
   const hanfleSublit = (event) => {
     event.preventDefault();
 
     const fromPage = location.state?.from?.pathname || "";
     let bool = false;
-    data.forEach((us) => {
+    usersData.forEach((us) => {
       if (log === " " || pass === "") {
       } else {
         if (us.login === log && us.pass === pass) {

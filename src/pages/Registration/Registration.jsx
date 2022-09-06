@@ -1,9 +1,12 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Prov } from "../../Context";
 import "./Registration.css";
 
 const Registration = () => {
+  const { usersData } = useContext(Prov);
+
   const [user, setUser] = useState({
     id: `${Date.now()}`,
     name: "",
@@ -14,23 +17,10 @@ const Registration = () => {
   });
   const navigate = useNavigate();
 
-  const [dataArr, setDataArr] = useState([]);
-
-  useEffect(() => {
-    loadUsers();
-    console.log("ubdate");
-  }, []);
-
-  const loadUsers = async () => {
-    const result = await axios.get("http://localhost:3000/users");
-    setDataArr(result.data);
-    console.log("ubdate");
-  };
-
   const onSubmit = async (e) => {
     e.preventDefault();
     let bool = true;
-    dataArr.forEach((data) => {
+    usersData.forEach((data) => {
       if (data.login !== user.login) {
         bool = true;
       } else {

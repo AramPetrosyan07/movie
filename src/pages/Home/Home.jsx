@@ -1,22 +1,22 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import CartList from "../../components/CartList/CartList";
+import Search from "../../components/Search/Search";
 import Table from "../../components/Table";
+import { Prov } from "../../Context";
 import "./Home.css";
 
 const Home = () => {
-  const [movies, setMovies] = useState([]);
+  const { movies } = useContext(Prov);
+  const [filteredMovie, setFilteredMovie] = useState("");
 
-  useEffect(() => {
-    fetching();
-  }, []);
-
-  const fetching = async () => {
-    const result = await axios.get("http://localhost:3000/movies");
-    setMovies(result.data);
+  const handleSearch = (value) => {
+    const newCategory = movies.filter((el) =>
+      el.name.toLowerCase().includes(value.toLowerCase())
+    );
+    setFilteredMovie(newCategory);
+    console.log(value);
   };
 
-  // console.log(movies);
   return (
     <div className="home">
       Home
@@ -24,7 +24,8 @@ const Home = () => {
       <Table />
       <br />
       <br />
-      <CartList movies={movies} />
+      <Search handleSearch={handleSearch} />
+      <CartList movies={filteredMovie.length > 0 ? filteredMovie : movies} />
     </div>
   );
 };

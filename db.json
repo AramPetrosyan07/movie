@@ -5,7 +5,7 @@
       "name": "Анджелина",
       "surname": "Джоли",
       "login": "anjo",
-      "pass": "anjo5000",
+      "pass": "anjo",
       "favoriteMovie": []
     },
     {
@@ -15,8 +15,108 @@
       "login": "r",
       "pass": "r",
       "favoriteMovie": [
-        
+        {
+          "id": 3,
+          "name": "Джуманджи",
+          "data": 2017,
+          "duration": 122,
+          "reiting": 8.3,
+          "image": "https://thumbs.dfs.ivi.ru/storage6/contents/5/4/8deab33c842f849c6aee04800a21fc.jpg",
+          "background": "https://www.film.ru/sites/default/files/filefield_paths/jumanji-the-next-level-ver2-xxlg.jpg",
+          "ifream": " https://www.youtube.com/embed/kTdFiAHMDKY",
+          "genre": "Комедии, Приключения, Фэнтези",
+          "actors": [
+            {
+              "image": "https://www.film.ru/sites/default/files/styles/thumb_260x320/public/people/1456177-1428238.jpg",
+              "name": "Дуэйн Джонсон",
+              "about": "Дуэйн «Скала» Джонсон – американский рестлер, актер и продюсер.",
+              "hasMovie": "https://www.ivi.ru/person/duejn_dzhonson#filmography"
+            },
+            {
+              "image": "https://images.uznayvse.ru/768x1024/p/images/catalog/2022/3/karen-gillan_74.jpg",
+              "name": "Карен Гиллан",
+              "about": "Карен Гиллан – шотландская актриса, наиболее известная по роли Эми Понд в культовом фантастическом сериале «Доктор Кто».",
+              "hasMovie": "https://www.ivi.ru/person/karen-gillan-22095#filmography"
+            },
+            {
+              "image": "https://thumbs.dfs.ivi.ru/storage8/contents/4/f/d9f5b964f125e2bd24e77970f19bde.jpg",
+              "name": "Джек Блэк",
+              "about": "Джек родился 28 августа 1969 года в Калифорнии. Принявший иудаизм шотландец отец и еврейка мать работали инженерами...",
+              "hasMovie": "https://www.ivi.ru/person/dzhek_blek#filmography"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Дэдпул 2",
+          "data": 2018,
+          "duration": 114,
+          "reiting": 8.2,
+          "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/f9da0090-ada3-49fb-b05d-20fbbb80f54b/300x450",
+          "background": "https://avatars.mds.yandex.net/get-kinopoisk-post-img/1362954/350c5c37bc69cf273cc39f13ff673791/960x540",
+          "ifream": "https://www.youtube.com/embed/tpXwjE8-TJo",
+          "genre": "Фантастика, Боевики, Комедии",
+          "actors": [
+            {
+              "image": "https://s5.vcdn.biz/static/f/2312200661/image.jpg",
+              "name": "Райан Рейнольдс",
+              "about": "Райан Рейнольдс (Ryan Reynolds) – киноактер, известный по ролям в развлекательных фильмах и молодежных блокбастерах...",
+              "hasMovie": "https://www.ivi.ru/person/rajan_rejnolds#filmography"
+            },
+            {
+              "image": "",
+              "name": "Морена Баккарин",
+              "about": "Морена Баккарин – американская актриса, неоднократная номинантка на самые престижные премии в области киноиндустрии,...",
+              "hasMovie": "https://uznayvse.ru/person/morena-baccarin/morena_baccarin01.jpg"
+            },
+            {
+              "image": "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/633cc6e6-37c1-429b-8847-9be359e8a7c7/280x420",
+              "name": "ТиДжей Миллер",
+              "about": "",
+              "hasMovie": "https://www.ivi.ru/person/tidzhej-miller#filmography"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Зеленая книга",
+          "data": 2018,
+          "duration": 124,
+          "reiting": 9.1,
+          "image": "https://thumbs.dfs.ivi.ru/storage32/contents/d/b/c72516e5e3a696a49e49c2901ccb1a.jpg/234x360/?q=60",
+          "background": "https://thumbs.dfs.ivi.ru/storage32/contents/c/e/c61e2c79162fb7ba06cd2f12c43c06.jpg",
+          "ifream": "https://www.youtube.com/embed/eors1MMmY5I",
+          "genre": "Комедии, Биография, Драмы",
+          "actors": [
+            {
+              "image": "https://thumbs.dfs.ivi.ru/storage8/contents/1/7/b6c74d3f19404a112a4e9165297096.jpg/120x144/?q=60",
+              "name": "Вигго Мортенсен",
+              "about": "Вигго Мортенсен (Viggo Mortensen) — американский актер датского происхождения. Наиболее известен по ролям в фильмах...",
+              "hasMovie": "www.ivi.ru/person/viggo_mortensen#filmography"
+            },
+            {
+              "image": "https://thumbs.dfs.ivi.ru/storage28/contents/5/4/7173c10b8d6aacdfef82f3f24a98ef.jpg/120x144/?q=60",
+              "name": "Махершала Али",
+              "about": "Махершалалхашбаз (Махершала) Али Mahershalalhashbaz Ali) – американский актёр. Наиболее известен по ролям в сериалах...",
+              "hasMovie": "www.ivi.ru/person/mahershala-ali#filmography"
+            },
+            {
+              "image": "https://thumbs.dfs.ivi.ru/storage30/contents/9/d/9f3706dd80579b6fb1d19de7ef4089.jpg/120x144/?q=60",
+              "name": "Линда Карделлини",
+              "about": " ",
+              "hasMovie": "www.ivi.ru/person/linda-kardellini#filmography"
+            }
+          ]
+        }
       ]
+    },
+    {
+      "id": "1662453690076",
+      "name": "w",
+      "surname": "w",
+      "login": "w",
+      "pass": "w",
+      "favoriteMovie": []
     }
   ],
   "movies": [

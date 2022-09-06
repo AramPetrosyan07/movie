@@ -9,19 +9,19 @@ const Detail = () => {
   function addToFavoriteList() {
     if (!favoriteList.includes(detailData)) {
       setFavoriteList([detailData, ...favoriteList]);
-      // addToJSON();
+      addToJSON();
     }
   }
-  // const newObj = {
-  //   ...user,
-  //   favoriteMovie: [...favoriteList],
-  // };
+  const newObj = {
+    ...user,
+    favoriteMovie: [detailData, ...favoriteList],
+  };
 
-  // console.log(newObj);
+  console.log(newObj);
 
-  // const addToJSON = async () => {
-  //   await axios.put("http://localhost:3000/users/" + user.id, newObj);
-  // };
+  const addToJSON = async () => {
+    await axios.put("http://localhost:3000/users/" + user.id, newObj);
+  };
 
   return (
     <div className="detail">
