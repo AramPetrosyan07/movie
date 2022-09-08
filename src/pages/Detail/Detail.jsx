@@ -17,10 +17,11 @@ const Detail = () => {
     favoriteMovie: [detailData, ...favoriteList],
   };
 
-  console.log(newObj);
-
   const addToJSON = async () => {
-    await axios.put("http://localhost:3000/users/" + user.id, newObj);
+    await axios.put("http://localhost:3000/users/" + user.id, {
+      ...user,
+      favoriteMovie: [detailData, ...favoriteList],
+    });
   };
 
   return (

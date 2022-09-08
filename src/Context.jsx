@@ -10,6 +10,7 @@ const Context = (props) => {
   const [favoriteList, setFavoriteList] = useState([]);
   const [movies, setMovies] = useState([]);
   const [usersData, setUsersData] = useState({});
+  // const [filters, setFIlters] = useState([]);
 
   //movies start
   useEffect(() => {
@@ -20,11 +21,13 @@ const Context = (props) => {
     const result = await axios.get("http://localhost:3000/movies");
     setMovies(result.data);
   };
+
   //movies end
 
   // users start
   useEffect(() => {
     loadUsers();
+    setFavoriteList(user?.favoriteMovie || []);
   }, [user]);
 
   const loadUsers = async () => {

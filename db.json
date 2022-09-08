@@ -16,6 +16,37 @@
       "pass": "r",
       "favoriteMovie": [
         {
+          "id": 1,
+          "name": "Зеленая книга",
+          "data": 2018,
+          "duration": 124,
+          "reiting": 9.1,
+          "image": "https://thumbs.dfs.ivi.ru/storage32/contents/d/b/c72516e5e3a696a49e49c2901ccb1a.jpg/234x360/?q=60",
+          "background": "https://thumbs.dfs.ivi.ru/storage32/contents/c/e/c61e2c79162fb7ba06cd2f12c43c06.jpg",
+          "ifream": "https://www.youtube.com/embed/eors1MMmY5I",
+          "genre": "Комедии, Биография, Драмы",
+          "actors": [
+            {
+              "image": "https://thumbs.dfs.ivi.ru/storage8/contents/1/7/b6c74d3f19404a112a4e9165297096.jpg/120x144/?q=60",
+              "name": "Вигго Мортенсен",
+              "about": "Вигго Мортенсен (Viggo Mortensen) — американский актер датского происхождения. Наиболее известен по ролям в фильмах...",
+              "hasMovie": "www.ivi.ru/person/viggo_mortensen#filmography"
+            },
+            {
+              "image": "https://thumbs.dfs.ivi.ru/storage28/contents/5/4/7173c10b8d6aacdfef82f3f24a98ef.jpg/120x144/?q=60",
+              "name": "Махершала Али",
+              "about": "Махершалалхашбаз (Махершала) Али Mahershalalhashbaz Ali) – американский актёр. Наиболее известен по ролям в сериалах...",
+              "hasMovie": "www.ivi.ru/person/mahershala-ali#filmography"
+            },
+            {
+              "image": "https://thumbs.dfs.ivi.ru/storage30/contents/9/d/9f3706dd80579b6fb1d19de7ef4089.jpg/120x144/?q=60",
+              "name": "Линда Карделлини",
+              "about": " ",
+              "hasMovie": "www.ivi.ru/person/linda-kardellini#filmography"
+            }
+          ]
+        },
+        {
           "id": 3,
           "name": "Джуманджи",
           "data": 2017,
@@ -76,47 +107,8 @@
               "hasMovie": "https://www.ivi.ru/person/tidzhej-miller#filmography"
             }
           ]
-        },
-        {
-          "id": 1,
-          "name": "Зеленая книга",
-          "data": 2018,
-          "duration": 124,
-          "reiting": 9.1,
-          "image": "https://thumbs.dfs.ivi.ru/storage32/contents/d/b/c72516e5e3a696a49e49c2901ccb1a.jpg/234x360/?q=60",
-          "background": "https://thumbs.dfs.ivi.ru/storage32/contents/c/e/c61e2c79162fb7ba06cd2f12c43c06.jpg",
-          "ifream": "https://www.youtube.com/embed/eors1MMmY5I",
-          "genre": "Комедии, Биография, Драмы",
-          "actors": [
-            {
-              "image": "https://thumbs.dfs.ivi.ru/storage8/contents/1/7/b6c74d3f19404a112a4e9165297096.jpg/120x144/?q=60",
-              "name": "Вигго Мортенсен",
-              "about": "Вигго Мортенсен (Viggo Mortensen) — американский актер датского происхождения. Наиболее известен по ролям в фильмах...",
-              "hasMovie": "www.ivi.ru/person/viggo_mortensen#filmography"
-            },
-            {
-              "image": "https://thumbs.dfs.ivi.ru/storage28/contents/5/4/7173c10b8d6aacdfef82f3f24a98ef.jpg/120x144/?q=60",
-              "name": "Махершала Али",
-              "about": "Махершалалхашбаз (Махершала) Али Mahershalalhashbaz Ali) – американский актёр. Наиболее известен по ролям в сериалах...",
-              "hasMovie": "www.ivi.ru/person/mahershala-ali#filmography"
-            },
-            {
-              "image": "https://thumbs.dfs.ivi.ru/storage30/contents/9/d/9f3706dd80579b6fb1d19de7ef4089.jpg/120x144/?q=60",
-              "name": "Линда Карделлини",
-              "about": " ",
-              "hasMovie": "www.ivi.ru/person/linda-kardellini#filmography"
-            }
-          ]
         }
       ]
-    },
-    {
-      "id": "1662453690076",
-      "name": "w",
-      "surname": "w",
-      "login": "w",
-      "pass": "w",
-      "favoriteMovie": []
     }
   ],
   "movies": [
